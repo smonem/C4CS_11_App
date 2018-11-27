@@ -1,0 +1,15 @@
+﻿<Window x:Class="C4CS_11_App.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:C4CS_11_App"
+        mc:Ignorable="d"
+        Title="C4CS App" Height="450" Width="800">
+    <Grid>
+		<TextBlock x:Name="textBlock" HorizontalAlignment="Center" Margin="0,100,0,0" TextWrapping="Wrap" Text="Saad Monem" VerticalAlignment="Center"/>
+		<TextBlock x:Name="textBlock4" HorizontalAlignment="Center" Margin="0,40,0,0" TextWrapping="Wrap" Text="A simple app by:" VerticalAlignment="Center"/>
+		<TextBlock x:Name="textBlock1" HorizontalAlignment="Center" Margin="0,150,0,0" TextWrapping="Wrap" Text="smonem" VerticalAlignment="Center"/>
+		<TextBlock x:Name="textBlock2" HorizontalAlignment="Center" Margin="0,-100,0,0" TextWrapping="Wrap" Text="C4CS" VerticalAlignment="Center"/>
+	</Grid>
+</Window>
